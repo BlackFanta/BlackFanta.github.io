@@ -5,7 +5,6 @@ import Filters from "./components/Filters";
 import Optionsfield from "./components/Optionsfield";
 import "./Map.css";
 import dataa from "./Emissions_annuelles_par_EPCI.json";
-import ReactMapGL from "react-map-gl";
 
 
 mapboxgl.accessToken =
