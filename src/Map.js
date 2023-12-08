@@ -5,8 +5,13 @@ import Filters from "./components/Filters";
 import Optionsfield from "./components/Optionsfield";
 import "./Map.css";
 import dataa from "./Emissions_annuelles_par_EPCI.json";
+import ReactMapGL from "react-map-gl";
+
+
 mapboxgl.accessToken =
   "pk.eyJ1IjoiYmVkaXMiLCJhIjoiY2w5ZWtiZmJ6MGhjYjN6bXlrZHVsOXl5dSJ9.1CE9860n2Unc9IByH8aJ1A";
+
+mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 
 const Map = () => {
   const tooltipRef = useRef(new mapboxgl.Popup({ offset: 15 }));
