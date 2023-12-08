@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/BlackFanta.github.io/static/css/main.7810ebba.css",
-    "main.js": "/BlackFanta.github.io/static/js/main.1db4cf82.js",
-    "index.html": "/BlackFanta.github.io/index.html",
-    "main.7810ebba.css.map": "/BlackFanta.github.io/static/css/main.7810ebba.css.map",
-    "main.1db4cf82.js.map": "/BlackFanta.github.io/static/js/main.1db4cf82.js.map"
+    "main.css": "/BlackFanta.github.io/src/static/css/main.7810ebba.css",
+    "main.js": "/BlackFanta.github.io/src/static/js/main.d1d71c85.js",
+    "index.html": "/BlackFanta.github.io/src/index.html",
+    "main.7810ebba.css.map": "/BlackFanta.github.io/src/static/css/main.7810ebba.css.map",
+    "main.d1d71c85.js.map": "/BlackFanta.github.io/src/static/js/main.d1d71c85.js.map"
   },
   "entrypoints": [
     "static/css/main.7810ebba.css",
-    "static/js/main.1db4cf82.js"
+    "static/js/main.d1d71c85.js"
   ]
 }
