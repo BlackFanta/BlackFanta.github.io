@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import mapboxgl from "mapbox-gl";
 import Legend from "./components/Legend";
 import Tooltip from "./components/Tooltip";
@@ -91,12 +91,10 @@ const Map = () => {
         console.log(e.features);
         if (e.features.length) {
           const tooltipNode = document.createElement("div");
-              // Use createRoot to render the Tooltip
-        const root = ReactDOM.createRoot(tooltipNode);
-
-        root.render(
-          <Tooltip feature={e.features[0].properties[lyonActive.property]} />
-        );
+          ReactDOM.render(
+            <Tooltip feature={e.features[0].properties} />,
+            tooltipNode
+          );
 
           // Set tooltip on map
           tooltipRef.current
