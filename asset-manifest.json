@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AirQuality_Visualizer/static/css/main.7810ebba.css",
+    "main.js": "/AirQuality_Visualizer/static/js/main.045745cf.js",
+    "index.html": "/AirQuality_Visualizer/index.html",
+    "main.7810ebba.css.map": "/AirQuality_Visualizer/static/css/main.7810ebba.css.map",
+    "main.045745cf.js.map": "/AirQuality_Visualizer/static/js/main.045745cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7810ebba.css",
+    "static/js/main.045745cf.js"
+  ]
+}
