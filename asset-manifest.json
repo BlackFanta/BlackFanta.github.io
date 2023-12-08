@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AirQuality_Visualizer/static/css/main.7810ebba.css",
-    "main.js": "/AirQuality_Visualizer/static/js/main.045745cf.js",
-    "index.html": "/AirQuality_Visualizer/index.html",
-    "main.7810ebba.css.map": "/AirQuality_Visualizer/static/css/main.7810ebba.css.map",
-    "main.045745cf.js.map": "/AirQuality_Visualizer/static/js/main.045745cf.js.map"
+    "main.css": "/BlackFanta.github.io/static/css/main.7810ebba.css",
+    "main.js": "/BlackFanta.github.io/static/js/main.1db4cf82.js",
+    "index.html": "/BlackFanta.github.io/index.html",
+    "main.7810ebba.css.map": "/BlackFanta.github.io/static/css/main.7810ebba.css.map",
+    "main.1db4cf82.js.map": "/BlackFanta.github.io/static/js/main.1db4cf82.js.map"
   },
   "entrypoints": [
     "static/css/main.7810ebba.css",
-    "static/js/main.045745cf.js"
+    "static/js/main.1db4cf82.js"
   ]
 }
